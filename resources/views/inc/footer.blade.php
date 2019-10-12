@@ -10,9 +10,9 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Mobi World</h6>
-              <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur
-                adipisicing elit.</p>
+              <p>We offered feature phones,mobiles and tablets of various companies like Samsung,Apple,
+                Huawei,Nokia,Sony,HTC,Motorola,Lenovo.
+              </p>
             </div>
            
             <!-- Grid column -->
@@ -35,11 +35,11 @@
                     {{-- <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6> --}}
                     <br><br>
                     <p>
-                      <i class="fas fa-home mr-3"></i> Kalyan-Murbad Road</p>
+                      <i class="fas fa-home mr-3"></i> Badlapur Road</p>
                     <p>
-                      <i class="fas fa-envelope mr-3"></i> nachhra9@gmail.com</p>
+                      <i class="fas fa-envelope mr-3"></i> 2017.divya.borse@ves.ac.in</p>
                     <p>
-                      <i class="fas fa-phone mr-3"></i> +91 7744818507</p>
+                      <i class="fas fa-phone mr-3"></i> +91 8983403218</p>
                   </div>
       
             <!-- Grid column -->
@@ -47,9 +47,9 @@
               {{-- <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6> --}}
               <br><br>
               <p>
-                <i class="fas fa-home mr-3"></i>Kalyan-Murbad Road</p>
+                <i class="fas fa-home mr-3"></i>J.T.P Nagar</p>
               <p>
-                <i class="fas fa-envelope mr-3"></i>nachhra9@gmail.com </p>
+                <i class="fas fa-envelope mr-3"></i>2017.vidya.katra@ves.ac.in </p>
               <p>
                 <i class="fas fa-phone mr-3"></i> + 91 7744818507</p>
             </div>
@@ -67,7 +67,7 @@
             <div class="col-md-7 col-lg-8">
       
               <!--Copyright-->
-              <p class="text-center text-md-left">© 2018 Copyright:
+              <p class="text-center text-md-left">© 2019 Copyright:
                 <a href="/">
                   <strong> mobiworld.com</strong>
                 </a>

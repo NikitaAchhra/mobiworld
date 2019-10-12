@@ -12,7 +12,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class = "nav-link" href="#">Shop</a>
+                    <a class = "nav-link" href="/products">Products</a>
                 </li>
             <li class="nav-item">
                 <a class = "nav-link" href="/about">About Us</a>
