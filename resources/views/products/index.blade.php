@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+@include('inc.navbarp')
 <style>
 
 </style>

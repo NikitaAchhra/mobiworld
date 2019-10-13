@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('inc.navbar')
     @include('inc.carousel')
 <style>
     
@@ -45,19 +46,33 @@
 
 <div class="container">
     <div class="card-deck">
-        <div class="card">            
-            <img src="Images\featurephone1.jpg" class="rounded" alt="featurePhones" width="350" height="200" href="">
+        
+        <div class="card" >
+          <a href="/feature" class="stretched-link"></a>         
+          <img src="Images\featurephone1.jpg"  class="rounded" alt="featurePhones" width="350px" height="200px" >
             <div class="middle">
-                    <div class="text"><strong> Feature Phones </strong></div>
-        </div></div>
+           <div class="text"><strong> Feature Phones </strong></div>
+        
+          </div></div>
+
+        
         <div class="card">
-            <img src="Images\iphone.jpg" class="rounded" alt="iphone" width="500" height="500">
+            <a href="/feature" class="stretched-link"></a>
+            <img src="Images\iphone.jpg" class="rounded" alt="iphone" width="350px" height="200px">
             <div class="middle">
                     <div class="text"><strong>Smart Phone
                          </strong></div>
             </div></div>
-        <div class="card">
-            <img src="Images\featurephone1.jpg" class="rounded" alt="" width="350" height="200">  </div>  
+             
+              
+            <div class="card">
+                <a href="/feature" class="stretched-link"></a>
+                  <img src="Images\tablet.jpg" class="rounded" alt="" width="350px" height="200px"> 
+              
+                  <div class="middle">
+              <div class="text"><strong> Tablet Phones </strong></div>
+  </div>
+        </div> 
     </div>   
 </div><br><br>
 <div class="jumbotron">

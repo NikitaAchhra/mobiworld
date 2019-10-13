@@ -23,7 +23,7 @@
 </head>
 <body>
     {{-- @include('inc.header') --}}
-    @include('inc.navbar')
+    
     <main style="min-height: 500px">
         @yield('content')
     <main>

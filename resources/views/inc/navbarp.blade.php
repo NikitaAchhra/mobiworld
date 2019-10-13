@@ -12,7 +12,10 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                    <a class = "nav-link" href="{{Route ('products.index')}}">Products</a>
+                    <a class = "nav-link" href="{{Route ('products.index')}}"><i style='font-size:17px' class='fas'>&#xf290;</i> Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link" href="#"><i style='font-size:17px' class='fas'>&#xf07a;</i> Cart</a>
                     </li>
                 <li class="nav-item">
                     <a class = "nav-link" href="/about">About Us</a>
@@ -20,6 +23,7 @@
                 <li class="nav-item">
                     <a class = "nav-link" href="#">Contact Us</a>
                 </li>
+                
             </ul>
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
@@ -30,7 +34,7 @@
                         </li>
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}"><i style='font-size:17px;' class='fas'>&#xf007;</i> {{ __('Sign Up') }}</a>
                             </li>
                         @endif
                     @else
