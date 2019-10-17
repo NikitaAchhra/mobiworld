@@ -1,0 +1,9 @@
+/*EXTRA SMALL DEVICES : MOBILES*/
+@media(max-width:767px){
+	.text-heading{
+		font-size: 40px;
+	}
+	.abt-our-company-info .abt-text2{
+		display: none;
+	}
+}

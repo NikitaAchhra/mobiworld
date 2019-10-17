@@ -14,9 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
-
-Route::get('/about', function () {
-    return view('about');
+Route::get('/inc/aboutus', function(){
+    return view('inc.aboutus');
+});
+Route::get('/inc/contact-form',function(){
+    return view('inc.contact-form');
 });
 
 Auth::routes();
@@ -37,3 +39,5 @@ Auth::routes();
 
 Route::get('/products/allproducts', 'ProductController@allproducts');
 Route::get('/products/buynow/{id}','ProductController@buynow')->middleware('auth');
+Route::get('/aboutus', 'HomeController@aboutus')->name('aboutus');
+Route::get('/contact-form','HomeController@contact_form')->name('contact-form');

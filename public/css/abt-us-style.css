@@ -1,0 +1,214 @@
+/*
+
+PROJECT TITLE E COMMMERCE WEBSITE FOR MOBIES ,LAPTOPS AND  ACCESSORIES -> MOBIFI
+
+*/
+/*=====================================================================================================================
+
+                                        GENERAL SECTION
+
+=====================================================================================================================*/
+
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto Condensed',sans-serif;
+}
+.btn-green{
+    color: #93CB52;
+    border-color: #333;
+}
+.btn-green:hover,
+.btn-green:focus{
+    background: #93CB52;
+    color: #fff;
+}
+.btn-general{
+    border: solid 2px #CCC;
+    border-radius: 20px;
+    padding: 12px 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-center{
+	text-align: center;
+}
+
+/*====================================================================================================================
+
+                                                 CONTENT BOX CSS
+
+=========================================================================================================================*/
+
+.content-box{
+    padding: 60px 0 0 0 ;
+}
+.content-title .text-heading{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin:  0 0 30px;
+	color: #93CB52;
+}
+
+.content-title-underline{
+    width: 30px;
+    height: 3px;
+    background: #93CB52;
+    margin: 0 auto 30px;
+    
+}
+
+/*====================================================================================================================
+		
+														SERVICES
+
+=========================================================================================================================*/
+
+
+.service-item{
+    padding: 20px 0;
+    margin: 0 0 20px;
+    cursor: pointer;
+    
+}
+.service-item-icon .fa{
+    color: #93CB52;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.service-item:hover .service-item-icon .fa{
+    color: #FFF;
+    background: #93CB52;
+}
+
+.service-item-title .text-heading{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+.service-item-desc p{
+    margin: 0;
+    padding-left: 100px;
+}
+
+
+
+/*====================================================================================================================
+
+                                                 about SECTION CSS
+
+=========================================================================================================================*/
+
+.about-section{
+    height: 100%;
+}
+.about-cover{
+    background-image: url('../images/final-images/bg-home.jpg');
+    position: relative;
+    height: 100%;
+}
+
+.about-cover .abt-text-heading{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+/*	text-align: center;*/
+	margin-top:0;
+	transform: translate(-50%,-50%);
+}
+
+ .text-heading{
+    color: #93CB52;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+	text-align: center;
+    text-transform: uppercase;
+}
+.about-content-box-inner{
+	top: 50%;
+	left: 50%;
+}
+.abt-our-company-wrapper .content-box{
+	width: 100%;
+	height: auto;
+}
+
+/*========================================================================================================
+
+                                            TEAM SECTION CSS
+
+=========================================================================================================*/
+
+.team-member{
+    margin: 0 15px;
+}
+.team-member-info{
+    padding: 10px 0 30px 0;
+}
+h4.team-member-name{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-designation{
+    color: #93CB52;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+/*========================================================================================================
+
+                                           SOCIAL ICON CSS
+
+=========================================================================================================*/
+
+
+.social-list{
+    padding-left: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i{
+    font-size: 17px;
+}
+.icon-gray{
+    color: #64707b;
+}
+.icon-white{
+    color: #93CB52;
+}
+.icon-facebook:hover{
+    color: #3C589C;
+}
+.icon-twitter:hover{
+    color: #5EAADE;
+}
+.icon-google-plus:hover{
+    color:#B93425;
+}
+.icon-youtube:hover{
+    color: #EE1C1B;
+}
+
+
+

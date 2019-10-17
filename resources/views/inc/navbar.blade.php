@@ -15,10 +15,12 @@
                     <a class = "nav-link" href="/products"><i style='font-size:17px' class='fas'>&#xf290;</i> Products</a>
                 </li>
             <li class="nav-item">
-                <a class = "nav-link" href="/about">About Us</a>
+                <a class = "nav-link" href="/aboutus">About Us</a>
+                
             </li>
             <li class="nav-item">
-                <a class = "nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="/contact-form">Contact US</a>
+                <!-- <a class = "nav-link" href="#">Contact Us</a> -->
             </li>
         </ul>
             <!-- Right Side Of Navbar -->
