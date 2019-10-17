@@ -15,12 +15,17 @@
                     <div class="card  bg-light" style = "width: 22rem; " >
                             <div class="card-body">
                                   
-                                    <p class="card-text"><b><img src="<?php echo $product->image?>"></b></p>
+                                    <img class="card-img-top" src="<?php echo $product->image?>" style="height:450px;">
                                     <h5 class="card-title"><b><?php echo $product->product_name ?></b></h5>
                                     <p class="card-text"><?php echo $product->description ?></p>
                                     <h5 class="card-text"><?php echo "₹".$product->price."/-"
                                      ?></h5>
-                                    <a href="{{ route('login') }}" class="btn btn-primary">Buy Now</a>
+                                 
+                                    
+                                    <a href="/products/buynow/{{$product->id    }}" class="btn btn-primary stretched-link">Buy Now</a>
+                               
+                                   
+                
                             </div>
                     </div>
                 </div>

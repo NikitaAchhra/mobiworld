@@ -57,7 +57,7 @@
 
         
         <div class="card">
-            <a href="/feature" class="stretched-link"></a>
+            <a href="/smart" class="stretched-link"></a>
             <img src="Images\iphone.jpg" class="rounded" alt="iphone" width="350px" height="200px">
             <div class="middle">
                     <div class="text"><strong>Smart Phone
@@ -66,7 +66,7 @@
              
               
             <div class="card">
-                <a href="/feature" class="stretched-link"></a>
+                <a href="/tablet" class="stretched-link"></a>
                   <img src="Images\tablet.jpg" class="rounded" alt="" width="350px" height="200px"> 
               
                   <div class="middle">

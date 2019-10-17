@@ -61,6 +61,9 @@
                                 @csrf
                             </form>
                     </li>
+                    @admin
+                        
+                    @endadmin
                 @endguest
             </ul>
         </div>

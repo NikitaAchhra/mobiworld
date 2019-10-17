@@ -7,7 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class products extends Model
 {
     protected $table = 'products';
-    public $primary = 'product_id';
+    public $primary = 'id';
+
+    protected $fillable = [
+        'product_name', 'product_type', 'company', 
+        'Model', 'Launch_date', 'price',
+        'description', 'image', 'video_url'
+    ];
+
 
     public function colors(){
         return $this->belongsToMany('App\Colors');

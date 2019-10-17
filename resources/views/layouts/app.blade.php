@@ -25,6 +25,7 @@
     {{-- @include('inc.header') --}}
     
     <main style="min-height: 500px">
+        @include('inc.messages')
         @yield('content')
     <main>
        

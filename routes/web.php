@@ -25,3 +25,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('/products','ProductController');
 Route::resource('/feature','FeatureController');
+Route::resource('/smart','Smart');
+Route::resource('/tablet','Tablet');
+Route::get('/Review','ReviewController@create')->name('Review.create');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Auth::routes();
+
+Route::get('/products/allproducts', 'ProductController@allproducts');
+Route::get('/products/buynow/{id}','ProductController@buynow')->middleware('auth');

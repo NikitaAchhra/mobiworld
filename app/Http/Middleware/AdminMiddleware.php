@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Auth;
 
 class AdminMiddleware
 {
@@ -16,11 +17,11 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
 
-        if ($request->user() && $request->user()->is_admin != 1)
-        {
-        return new Response(view(‘unauthorized’)->with(‘role’, ‘ADMIN’));
+        if (Auth::user() &&  Auth::user()->is_admin == 1) {
+            return $next($request);
         }
 
-        return $next($request);
+        return abort(404);
+
     }
 }
